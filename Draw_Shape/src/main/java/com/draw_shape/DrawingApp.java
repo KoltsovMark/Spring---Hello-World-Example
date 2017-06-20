@@ -15,6 +15,5 @@ public class DrawingApp {
         triangle.draw();
         Shape circle = (Shape) factory.getBean("circle");
         circle.draw();
-
     }
 }
